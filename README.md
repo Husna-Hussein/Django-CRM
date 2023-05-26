@@ -27,7 +27,7 @@ Django CRM is a customer relationship management (CRM) system built using the Dj
     ```
  5. Install the dependencies:
  ``` bash 
- pip install -r requirements.txt
+ pip freeze > requirements.txt
  ```
  6. Set up the database:
  ``` bash 
