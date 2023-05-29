@@ -4,7 +4,7 @@ from django.contrib import messages
 from .forms import SignUpForm, AddRecordForm
 from .models import Record
 
-# Create your views here.
+
 def home(request):
     records = Record.objects.all()
 
